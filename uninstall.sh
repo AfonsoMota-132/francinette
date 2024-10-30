@@ -1,15 +1,15 @@
 #!/bin/bash
 
-mkdir -p $HOME/.tmp_francinette
+mkdir -p $HOME/francinette/.tmp_francinette
 
-git clone https://github.com/WaRtr0/francinette-image.git $HOME/.tmp_francinette/francinette-image
+git clone https://github.com/WaRtr0/francinette-image.git $HOME/francinette/.tmp_francinette/francinette-image
 
 source $HOME/.tmp_francinette/francinette-image/utils/remove_docker.sh
 source $HOME/.tmp_francinette/francinette-image/utils/remove_zshrc.sh
 
-rm -rf $HOME/francinette-image
-rm -rf $HOME/.tmp_francinette
-
+rm -rf $HOME/francinette/francinette-image
+rm -rf $HOME/francinette/.tmp_francinette
+rm -f  $HOME/francinette
 WHITE='\033[0;37m' 
 BLUE='\033[0;36m'
 GREEN='\033[0;32m'

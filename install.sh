@@ -33,6 +33,7 @@ else
 		docker load < $HOME/francinette-image/francinette.tar
 	fi
 
+	chmod +x $HOME/francinette/francinette-image/utils/install.zshrc.sh
 	source $HOME/francinette/francinette-image/utils/install_zshrc.sh
 
 
