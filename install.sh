@@ -8,6 +8,7 @@ if ls -l $HOME | grep "francinette";
 then
 		echo "${RED}Francinette Directory already exists on home.\nPlease remove it before proceeding!"
 else
+	ln -s /sgoinfre/$USER ~/francinette
 	if ! ls -l $HOME | grep "francinette-image" &> /dev/null; then
 		git clone https://github.com/AfonsoMota-132/francinette.git $HOME/francinette/francinette-image
 	fi
