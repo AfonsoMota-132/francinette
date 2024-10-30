@@ -1,1 +1,1 @@
-for installation: bash -c "$(curl -fsSL https://raw.githubusercontent.com/WaRtr0/francinette-image/master/install.sh)"
+for installation: bash -c "$(curl -fsSL https://raw.githubusercontent.com/AfonsoMota-132/francinette/master/install.sh)"
